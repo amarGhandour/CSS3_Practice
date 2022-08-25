@@ -1,0 +1,35 @@
+#mainWrapper {
+    box-shadow: 5px 5px 30px red;
+}
+#mainWrapper:hover {
+    transform: none;
+}
+#album {
+    width: 55%;
+}
+#journal {
+    width: 40%;
+    column-rule: none;
+    border: 4px double deeppink;
+}
+img {
+    transform: rotate(30deg);
+    margin-top: 30px;
+    box-shadow: 3px 3px 10px blue;
+}
+img:hover {
+    transform: rotate(0);
+    border: 3px double blue;
+    box-shadow: 3px 3px 10px orange;
+}
+
+img:active {
+    transform: rotate(0);
+    border: 3px dashed black;
+    box-shadow: 8px 8px 10px #bf025f;
+}
+
+mark {
+    background-color: blue;
+    color: white;
+}

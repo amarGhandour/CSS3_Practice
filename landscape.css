@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#mainWrapper {
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #e8e814;
+    border-radius: 20px;
+    height: 600px;
+    box-shadow: 5px 5px 30px darkorchid,
+    15px 20px 40px lawngreen inset,
+    -15px -20px 40px lawngreen inset;
+    display: -webkit-box;
+    padding: 10px;
+    -webkit-column-gap: 25px;
+    transition: all 3s;
+}
+
+#mainWrapper:hover  {
+    transform: skew(20deg);
+    box-shadow: 5px 5px 30px lawngreen;
+}
+
+#mainWrapper:active {
+    box-shadow: 5px 5px 30px #bf025f;
+    transform: scale(0.5);
+}
+
+#journal {
+    width: 35%;
+    padding: 2% 1%;
+    border: 3px solid black;
+    border-radius: 20px;
+    -webkit-box-flex: 1;
+    box-shadow: 30px 60px 100px #4bde4a inset,
+    -30px -50px 100px #4bde4a inset;
+    column-count: 3;
+    column-rule: 2px solid red;
+    overflow-y: hidden;
+    height: 93%;
+}
+
+#journal:hover {
+    text-decoration: underline;
+}
+
+#album {
+    text-align: center;
+    width: 60%;
+    padding: 2% 1%;
+    border: 3px solid blue;
+    border-radius: 20px;
+    box-shadow: 40px 40px 40px lawngreen inset,
+    -40px -40px 40px lawngreen inset;
+    display: -webkit-box;
+    -webkit-column-gap: 25px;
+    grid-row-gap: 25px;
+    overflow-y: auto;
+}
+
+img {
+    width: 125px;
+    margin-left: 4%;
+    margin-top: 20px;
+    border: 2px solid blue;
+    box-shadow: 5px 5px 10px #bf025f;
+    transition: all 2s;
+}
+
+img:hover {
+    border: 6px double blue;
+    box-shadow: 5px 5px 10px #cece04;
+    transform: scale(1.2);
+}
+
+img:active {
+    box-shadow: 5px 5px 10px #bf025f;
+    transform: scale(2.5);
+}
+
+mark {
+    color: red;
+    transition: all 3s;
+}
+
+mark:hover {
+    color: brown;
+    background-color: red;
+}
+
+mark:active {
+    color: yellow;
+    background-color: #bf025f;
+}
